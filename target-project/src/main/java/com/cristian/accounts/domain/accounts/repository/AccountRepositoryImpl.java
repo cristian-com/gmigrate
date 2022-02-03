@@ -20,6 +20,11 @@ public class AccountRepositoryImpl implements AccountRepository {
   String maMan;
 
   @Override
+  public String aMethod() {
+    return variable;
+  }
+
+  @Override
   public Optional<Account> find(UUID id) {
     return Optional.empty();
   }

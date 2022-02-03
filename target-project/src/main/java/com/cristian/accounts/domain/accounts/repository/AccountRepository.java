@@ -6,6 +6,8 @@ import java.util.Optional;
 import java.util.UUID;
 
 public interface AccountRepository {
+  String aMethod();
+
   Optional<Account> find(final UUID id);
 
   Account save(final Account ac);
