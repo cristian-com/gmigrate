@@ -22,6 +22,7 @@ public class AccountRepositoryImpl implements AccountRepository {
   @Override
   public String aMethod() {
     // A comment
+    // A refactor
     return variable;
   }
 
