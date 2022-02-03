@@ -17,6 +17,7 @@ public class AccountRepositoryImpl implements AccountRepository {
   String variable;
   String anotherVariable;
   String thisVariable;
+  String maMan;
 
   @Override
   public Optional<Account> find(UUID id) {
