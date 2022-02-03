@@ -1,0 +1,28 @@
+pablito.clavo: un
+
+spring.devtools.livereload.enabled: false
+
+spring:
+  output:
+    ansi:
+      enabled: ALWAYS
+  messages:
+    fallback-to-system-locale: false
+    basename: messages.messages
+
+server:
+  servlet:
+    context-path: /accounts-service
+
+comment-logging:
+  file:
+    name: logs.test.log
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "logfile,health,env,conditions,caches,httptrace,loggers,metrics,mappings"
+    logfile:
+      sensitive: false
+      enabled: true
