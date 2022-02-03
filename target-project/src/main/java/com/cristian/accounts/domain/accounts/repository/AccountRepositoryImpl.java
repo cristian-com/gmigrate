@@ -14,6 +14,9 @@ public class AccountRepositoryImpl implements AccountRepository {
 
   // private final AccountDao accountDao;
 
+  String variable;
+  String anotherVariable;
+
   @Override
   public Optional<Account> find(UUID id) {
     return Optional.empty();
